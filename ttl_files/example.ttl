@@ -1,0 +1,8 @@
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Juan ns1:ciudad "Madrid" ;
+    ns1:edad 30 ;
+    ns1:nombre "Juan Pérez" ;
+    ns1:tipo ns1:Persona .
+

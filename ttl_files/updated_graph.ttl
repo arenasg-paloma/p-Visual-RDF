@@ -1,0 +1,35 @@
+@prefix ex2: <http://example2.org/> .
+@prefix ns1: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Juan ns1:ciudad "Madrid" ;
+    ns1:edad 30 ;
+    ns1:nombre "Juan Pérez" ;
+    ns1:tipo ns1:Persona .
+
+ns1:Person1 ns1:hasAge 30 ;
+    ns1:hasName "Alice" ;
+    ns1:knows ex2:Juan .
+
+ex2:Juan ns1:ciudad "Huelva" ;
+    ns1:edad 20 .
+
+"Mari" ns1:ciudad "Sevilla" ;
+    ns1:edad 10 .
+
+"Zule" ns1:ciudad "Granada" ;
+    ns1:edad 34 .
+
+ns1:Zule ns1:ciudad "Malaga" ;
+    ns1:edad 50 .
+
+ex2:Elena ns1:ciudad "Lugo" ;
+    ns1:edad 25 .
+
+ns1:Elena ns1:ciudad "Barcelona" ;
+    ns1:edad 70 .
+
+"Juan" ns1:ciudad "Almeria" ;
+    ns1:edad 15 .
+
+
